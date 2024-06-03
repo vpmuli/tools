@@ -1,0 +1,4 @@
+<script>
+const queryString = window.location.search;
+window.location.href = decodeURIComponent(queryString.substring(queryString.indexOf('=') + 1));
+</script>
